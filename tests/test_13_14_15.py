@@ -1,5 +1,5 @@
 import pytest
-from funciones import *
+from consultas_bd import *
 from curls import *
 
 def test_case_13():

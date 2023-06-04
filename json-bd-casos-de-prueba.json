@@ -1,0 +1,168 @@
+{
+  "datos_entrada": {
+    "cp10": {
+      "org_name": "Rulitos",
+      "role": "member",
+      "user_email": "axcarrillo24@gmail.com"
+    },
+    "cp11": {
+      "org_name": "Rulitos",
+      "role": "member",
+      "user_email": "yina2724@gmail.com"
+    },
+    "cp12": {
+      "org_name": "Rodillones",
+      "role": "member",
+      "user_email": "yina2724@gmail.com"
+    },
+    "cp13": {
+      "org_name": "Rulitos"
+    },
+    "cp14": {
+      "org_name": "Rodillones"
+    },
+    "cp15": {
+      "org_name": "Rulitos"
+    },
+    "cp4": {
+      "display_name": "Alexander Ariza"
+    },
+    "cp5": {
+      "display_name": ""
+    },
+    "cp7": {
+      "org_name": "Rulitos",
+      "user_email": "axcarrillo24@gmail.com"
+    },
+    "cp8": {
+      "org_name": "Rodillones",
+      "user_email": "yina2724@gmail.com"
+    },
+    "cp9": {
+      "org_name": "Rulitos",
+      "user_email": "elfachas47@gmail.com"
+    }
+  },
+  "datos_esperados": {
+    "cp1": {
+      "payload": {
+        "avatar_url": "null",
+        "can_change_password": false,
+        "created_at": "2023-05-12T20:14:44.451Z",
+        "display_name": "Alexander Ariza",
+        "email": "aarizac@unicesar.edu.co",
+        "id": "850ba145-8cae-4bb7-bece-68fecc8be5e2",
+        "name": "aarizac-unicesar.edu.co",
+        "origin": "appcenter"
+      },
+      "status_code": 200
+    },
+    "cp10": {
+      "statusCode": 204
+    },
+    "cp11": {
+      "payload": {
+        "error": {
+          "code": "Conflict",
+          "message": "yina2724@gmail.com has already been invited to this organization"
+        }
+      },
+      "statusCode": 409
+    },
+    "cp12": {
+      "code": "Not Found",
+      "message": "Not found. Correlation ID: ...",
+      "statusCode": 404
+    },
+    "cp13": {
+      "-NX-XqUwZvWDOs7uFram": [
+        {
+          "description": "team de prueba",
+          "display_name": "Team1",
+          "id": "31547b34-5d8b-4c3f-ab68-38f3c151a125",
+          "name": "team1"
+        },
+        {
+          "description": "team de prueba 2",
+          "display_name": "Team2",
+          "id": "dad8ad05-44cb-428a-a152-25fb6a41a8c1",
+          "name": "team2"
+        },
+        {
+          "description": "team de prueba 3",
+          "display_name": "Team3",
+          "id": "f2adc4b1-f276-4176-88ae-7e48e0d6d25e",
+          "name": "team3"
+        }
+      ],
+      "statusCode": 200
+    },
+    "cp14": {
+      "code": "Not Found",
+      "message": "Not found. Correlation ID: ...",
+      "statusCode": 404
+    },
+    "cp15": {
+      "code": "Unauthorized",
+      "message": "Unauthorized. Correlation ID: ...",
+      "statusCode": 401
+    },
+    "cp2": {
+      "code": "Unauthorized",
+      "message": "Unauthorized. Correlation ID: ...",
+      "statusCode": 401
+    },
+    "cp3": {
+      "code": "Unauthorized",
+      "message": "Missing valid authentication token. Correlation ID: ...",
+      "statusCode": 401
+    },
+    "cp4": {
+      "payload": {
+        "avatar_url": "null",
+        "can_change_password": false,
+        "display_name": "Alexander Ariza",
+        "email": "aarizac@unicesar.edu.co",
+        "id": "850ba145-8cae-4bb7-bece-68fecc8be5e2",
+        "name": "aarizac-unicesar.edu.co",
+        "origin": "appcenter"
+      },
+      "statusCode": 200
+    },
+    "cp5": {
+      "payload": {
+        "error": {
+          "code": "BadRequest",
+          "message": "Name contains invalid character "
+        }
+      },
+      "statusCode": 400
+    },
+    "cp6": {
+      "payload": {
+        "error": {
+          "code": "BadRequest",
+          "message": "Missing required body parameter \"user\""
+        }
+      },
+      "statusCode": 400
+    },
+    "cp7": {
+      "statusCode": 204
+    },
+    "cp8": {
+      "code": "Not Found",
+      "message": "Not found. Correlation ID: ...",
+      "statusCode": 404
+    },
+    "cp9": {
+      "payload": {
+        "error": {
+          "code": "NotFound",
+          "message": "No user with the email elfachas47@gmail.com has pending invitations for the organization"
+        }
+      },
+      "statusCode": 404
+    }
+  }
+}

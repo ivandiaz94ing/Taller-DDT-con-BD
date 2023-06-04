@@ -1,6 +1,6 @@
 import requests
 import json
-from funciones import *
+from consultas_bd import *
 
 def curl_cp1():
     url = "https://api.appcenter.ms/v0.1/user"
